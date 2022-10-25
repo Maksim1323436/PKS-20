@@ -30,28 +30,17 @@ namespace AllLabsProject
             Console.WriteLine($"Факториал числа 5 = {factorial5}");
             Console.WriteLine($"Факториал числа 6 = {factorial6}");
         }
-        /// <summary>
-        /// Метод возвращает описание заданий лабораторной работы
-        /// </summary>
-        /// <returns></returns>
-        /// <returns>Описание лабы</returns>
+      
         public string Description()
         {
             return "Задание 6";
         }
-        /// <summary>
-        /// Метод возвращает номер лабораторной работы
-        /// </summary>
-        /// <returns>Номер лабы</returns>
+       
         public int Id()
         {
             return 6;
         }
-
-        /// <summary>
-        /// Метод возвращает заголовок лабораторной работы
-        /// </summary>
-        /// <returns></returns>
+        
         public string Name()
         {
             return "Лабораторная №6. Рекурсивная функция";
